@@ -1,12 +1,24 @@
-layout_spectrum: 0.2443609
 color:
   saturation: 0.4269641
-  lightness: 0.5835342
   brandStrength: 0.08039133
+  rhythmicContrast: 0.6766706
   brandColors:
     - '#FFFFFF'
     - '#6D6D6F'
     - '#C6C6C7'
-  rhythmicContrast: 0.6766706
+  lightness: 0.5835342
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+layout_spectrum: 0.2443609
 typography_spectrum: 0.3066595
 name: Reliable Window Cleaning
